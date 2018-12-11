@@ -9,8 +9,8 @@ def collect_lua_file_map():
     "\n" : "\\n",     # new lines to \n
   }
 
-  subdir = 'source/stonehearth_data/mods/'
-  lua_file_map_path = 'scripts/lua_profiler/lua_file_map.js'
+  subdir = 'C:/Program Files (x86)/Steam/steamapps/common/Stonehearth/mods/'
+  lua_file_map_path = 'lua_file_map.js'
 
   if len(sys.argv) == 3:
     _, subdir, lua_file_map_path = sys.argv
