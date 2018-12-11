@@ -24,7 +24,7 @@ Scripts used to profile your Stonehearth game's lua performance
 3. Replace [PATH_TO_MODS_FOLDER] with the path to your stonehearth mods folder.
 
 4. Load up the game you want to profile
-5. Wait for the UI to come up, select the "Performance Monitor" icon (A) in debug tools
+5. Wait for the UI to come up, select the "Performance Monitor" icon (upper right, looks like a line graph) in debug tools
 6. When ready (after clicking the speed 1 button and wait for initial script catch up), click on the profiling button (the play button). If you are looking for what is causing sudden hitches, check the `Long Ticks Only` checkbox.
 7. Press the stop button to finish profiling.
 9. Open Chrome and navigate to the lua_profiler.html file in the lua_profiler folder
