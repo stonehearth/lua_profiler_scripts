@@ -18,6 +18,9 @@ def collect_lua_file_map():
   print 'Path to mods directory: %s' % subdir
   print 'Path to lua_file_map.js: %s' % lua_file_map_path
 
+  if not (subdir.endswith('\\') or subdir.endswith('/')):
+    subdir = subdir + '/'
+
   luafiles = {}
   for root, dirs, files in os.walk(subdir):
     for f in files:
