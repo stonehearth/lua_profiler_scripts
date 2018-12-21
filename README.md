@@ -21,6 +21,8 @@ Scripts used to profile your Stonehearth game's lua performance
 
 `collect_lua_file_map.py [PATH_TO_MODS_FOLDER] lua_file_map.js`
 
+NOTE: You will need to run the above command to re-create the lua file map anytime you've changed any lua files since the last time you profiled. Otherwise the methods and lines of code shown by the profiler will not be showing the up-to-date code.
+
 3. Replace [PATH_TO_MODS_FOLDER] with the path to your stonehearth mods folder.
 
 4. Load up the game you want to profile
