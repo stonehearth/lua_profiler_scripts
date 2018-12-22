@@ -41,4 +41,5 @@ Make sure your mods are unzipped (folders instead of .smods) so that the script 
 IMPORTANT: launch a new tab of `lua_profiler/lua_profiler.html` every time you need to load a new profile
 
 Note: If you are getting a game crash while profiling in `ai::CreateAction`, add a check for `ai.get()` on the preceding line.
+Note: If you are getting incomplete or invalid profiler output, try deleting the file `Stonehearth/compiled_resources/lua_file_mapper.fb`.
  
